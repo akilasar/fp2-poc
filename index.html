@@ -18,11 +18,11 @@
     .money-cell { text-align: right; }
     h2 { text-align: center; }
 
-    #leg1 { background-color: #66c2a5; }
-    #leg2 { background-color: #fc8d62; }
-    #leg3 { background-color: #8da0cb; }
-    #leg4 { background-color: #e78ac3; }
-    #leg5 { background-color: #a6d854; }
+    #leg1 { background-color: #77b5dd; }
+    #leg2 { background-color: #acc7dc; }
+    #leg3 { background-color: #dadada; }
+    #leg4 { background-color: #e8a35e; }
+    #leg5 { background-color: #e3880f; }
     #avLeg { background-color: grey; }
 
     @media screen and (min-width: 768px) {
@@ -132,7 +132,7 @@
         .append("g")
           .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
-      const color = d3.scaleOrdinal(["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854","#ffd92f"]);
+      const color = d3.scaleOrdinal(["#77b5dd", "#acc7dc", "#dadada", "#e8a35e", "#e3880f","#ffd92f"]);
 
       const pie = d3.pie()
         .value()
